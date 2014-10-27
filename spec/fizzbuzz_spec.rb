@@ -39,6 +39,14 @@ describe "fizzbuzz" do
       expect(fizzbuzz(5)).to eq "Buzz"
     end
 
+    it "Return Fizzbuzz" do
+      expect(fizzbuzz(15)).to eq "Fizzbuzz"
+    end
+
+    it "Return Number" do
+      expect(fizzbuzz(1)).to eq 1
+    end
+
   end
 
 end
