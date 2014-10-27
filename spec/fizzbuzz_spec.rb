@@ -28,4 +28,17 @@ describe "fizzbuzz" do
     end
 
   end
+
+  context "while playing the game" do
+
+    it "Return Fizz" do
+      expect(fizzbuzz(3)).to eq "Fizz"
+    end
+
+    it "Return Buzz" do
+      expect(fizzbuzz(5)).to eq "Buzz"
+    end
+
+  end
+
 end
